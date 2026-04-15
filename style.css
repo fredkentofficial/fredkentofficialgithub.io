@@ -1,0 +1,53 @@
+body {
+    color: rgb(8, 234, 241);
+    background-image: url(photo.png); 
+}
+image {
+    object-fit: cover;
+    opacity: 0.5;
+}
+nav {
+    padding: 40px;
+    background-color:rgb(247, 11, 247);
+    border-radius: 30px;
+}
+nav a {
+    padding: 15px;
+    margin: 40px;
+    border-radius: 40px;
+    background-color: rgb(238, 234, 5);
+    text-align: center;
+}
+nav :hover {
+    background-color: brown;
+color: #f70ac3;
+}
+form {
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 20px;
+    border: solid yellow 10px;
+    background-color: rgb(9, 194, 240);
+    border-radius: 10px;
+    color: #f70ac3;
+}
+
+button {
+    margin: 20px;
+    padding: 15px;
+    color: rgb(50, 5, 248);
+    border-color: brown solid 10px;
+    border: solid red 10px;
+    border-radius: 10px;
+    
+}
+button :hover {
+    position: absolute;
+    color: blue solid 5px;
+}
+footer {
+background-color: rgb(236, 66, 180);
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+border-radius: 10px;
+}
