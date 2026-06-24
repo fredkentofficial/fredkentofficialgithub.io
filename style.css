@@ -11,7 +11,7 @@ body {
 }
 @media (max-width: 768px) {
     body {
-        background-color: aqua;
+        background-image:url(students.jpg);
     }
     .navbar {
         flex-direction: column;
