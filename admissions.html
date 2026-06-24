@@ -3,61 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title><link rel="stylesheet" href="style.css">
+    <title>Admissions - Fredkent Institute</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h4><strong>Welcome</strong></h4>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Courses.html">Courses</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="contacts.html">Contacts</a>
+    </nav>
 
-    <p>Thank you for yuor interest in joining our Computer Science programs.
-         We are committed to providing quality education to prepare you for a successful career in technology</p>
-         <br>
-        <mark><strong>Requirements</strong></mark>
-        <p>To be eligible for admission , applicants must:
-            <ol>
-                <li>Have completed secondary level (or equivalent)</li>
-                <li>Possess basic knowledge of English and Mathematics</li>
-                <li>Show interest in technology and computing</li>
-                <li>Submit all required documents</li>
-            </ol>
-        </p>
-        <br>
-<strong><mark>Required documents</mark></strong>
-<ul>
-    <li>Academic certificates</li>
-    <li>Copy of national ID/passport</li>
-    <li>Passport-size photographs</li>
-    <li>Completed application form</li>
-</ul>
-<br>
-<strong>How to apply</strong>
+    <main>
+        <h4><strong>Welcome</strong></h4>
+        <p>Thank you for your interest in joining our Computer Science programs. We are committed to providing quality education to prepare you for a successful career in technology.</p>
 
-<u><p>Application form</p></u>
-<form action="I submit" method="post">
-    <label for="name">Name</label>
-    <input type="text"id ="name"name="name"required>
+        <strong>Requirements</strong>
+        <p>To be eligible for admission, applicants must:</p>
+        <ol>
+            <li>Have completed secondary level (or equivalent)</li>
+            <li>Possess basic knowledge of English and Mathematics</li>
+            <li>Show interest in technology and computing</li>
+            <li>Submit all required documents</li>
+        </ol>
 
-    <label for="date of birth">Date of birth</label>
-    <input type="date" id="date"
-    
-    <label for="email"> Email</label>
-    <input type="email" name="" id="email" required>
+        <u>Required documents</u>
+        <ul>
+            <li>Academic certificates</li>
+            <li>Copy of national ID/passport</li>
+            <li>Passport-size photographs</li>
+            <li>Completed application form</li>
+        </ul>
 
-    <label for="nationality">Nationality</label>
-    <input type="text" id="nationality">
+        <strong>How to apply</strong>
+        <p><u>Application form</u></p>
+        <form action="i submit" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
 
-    <label for="gender">Gender</label>
-    <input type="text" id="gender" required>
+            <label for="date">Date of birth</label>
+            <input type="date" id="date" name="dob" required>
 
-    <label for="phone number">Phone number</label>
-    <input type="number" id="number"required>
-    <button type="submit" click on me>Sumbit</button>
-    <br>
-</form>
-<br>
-<mark><strong>Confirmation</strong></mark>
-<p>Successful applicants will receive an admission letter</p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
 
+            <label for="nationality">Nationality</label>
+            <input type="text" id="nationality" name="nationality">
 
+            <label for="gender">Gender</label>
+            <input type="text" id="gender" name="gender" required>
+
+            <label for="number">Phone number</label>
+            <input type="tel" id="number" name="phone" required>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <strong>Confirmation</strong>
+        <p>Successful applicants will receive an admission letter.</p>
+    </main>
+
+    <script src="script.js"></script>
 </body>
-
 </html>
